@@ -63,7 +63,35 @@ def calc_int_comp(cap_ini, contrib, interes, anualidades):
     """
     Calcula el rendimiento con capitalización compuesta mensual.
     """
-    pass
+    cap = cap_ini
+    total_aportado = cap_ini  # Incluye el capital inicial
+    total_beneficios = 0
+
+    print("\n")
+
+    # Realizamos el ciclo mes a mes, pero solo imprimimos resultados al final de cada año
+    for mes in range(anualidades * 12):
+        # Calcula los intereses después de la aportación mensual
+        interes_ganado = cap * interes / 12  # Interés mensual
+        cap += interes_ganado + contrib  # Suma interés y contribución mensual
+        total_aportado += contrib  # Aumenta el total aportado
+        total_beneficios += interes_ganado  # Suma el interés ganado
+
+        # Al final de cada año (cuando mes + 1 es múltiplo de 12), mostramos resultados
+        if (mes + 1) % 12 == 0:
+            year = (mes + 1) // 12
+            print(f"Año {year}: ")
+            print(f"  Total aportado: {total_aportado:.2f}")
+            print(f"  Intereses generados hasta ahora: {total_beneficios:.2f}")
+            print(f"  Capital total al final del año {year}: {cap:.2f}")
+            print()
+
+    # Resumen final
+    print(f"Resumen final después de {anualidades} años:")
+    print(f"Total aportado: {total_aportado:.2f}")
+    print(f"Total beneficios generados por intereses: {total_beneficios:.2f}")
+    print(f"Media de interés anual: {total_beneficios / anualidades:.2f}")
+    print(f"Capital total después de {anualidades} años: {cap:.2f}")
 
 
 def main():

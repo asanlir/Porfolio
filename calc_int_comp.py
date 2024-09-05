@@ -11,7 +11,11 @@ def obtener_datos_usuario():
     contrib = int(input("Indique su aportación mensual: "))
     interes = float(input("Indique el interés del depósito (%): ")) / 100
     anualidades = int(input("¿Cuántos años quiere simular?: "))
-    capit = input("¿Capitalización mensual o anual? (m/a) ").lower()
+    capit = ""
+    while True:
+        capit = input("¿Capitalización mensual o anual? (m/a) ").lower()
+        if validar_capitalizacion(capit):
+            break
 
     return cap_ini, contrib, interes, anualidades, capit
 
@@ -21,7 +25,7 @@ def validar_capitalizacion(capit):
     Valida la elección de capitalización.
     """
     if capit not in ["m", "a"]:
-        print("Por favor, seleccione una opción válida")
+        print("Por favor, seleccione una opción válida ('m' para mensual o 'a' para anual).")
         return False
     return True
 
@@ -95,7 +99,14 @@ def calc_int_comp(cap_ini, contrib, interes, anualidades):
 
 
 def main():
-    pass
+    cap_ini, contrib, interes, anualidades, capit = obtener_datos_usuario()
+
+    if not validar_capitalizacion(capit):
+        return
+    elif capit == "a":
+        calc_int_simp(cap_ini, contrib, interes, anualidades)
+    else:
+        calc_int_comp(cap_ini, contrib, interes, anualidades)
 
 
 if __name__ == "__main__":

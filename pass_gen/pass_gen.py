@@ -121,7 +121,7 @@ entry_contraseña.grid(row=6, column=0, columnspan=2, padx=10, pady=5, sticky="e
 
 # Icono del portapapeles para el botón "Copiar" con aspecto de botón
 try:
-    imagen_portapapeles = Image.open("C:\\Users\\alex0\\workspace\\Apps\\pass_gen\\clipboard_icon.png")
+    imagen_portapapeles = Image.open("pass_gen/clipboard_icon.png")
     imagen_portapapeles = imagen_portapapeles.resize((20, 20))  # Redimensionar
     icono_portapapeles = ImageTk.PhotoImage(imagen_portapapeles)
     boton_copiar = tk.Button(ventana, image=icono_portapapeles, command=copiar_contraseña, relief="raised", borderwidth=2)

@@ -1,3 +1,7 @@
+"""
+Genera una contraseña aleatoria en función de los valores introducidos por el usuario.
+"""
+
 import tkinter as tk
 import string
 import random

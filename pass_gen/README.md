@@ -4,16 +4,14 @@ Este es un sencillo generador de contraseñas creado con Tkinter. Permite genera
 
 ## Características
 
-- Generación de contraseñas aleatorias.
-- Personalización de la longitud de la contraseña.
-- Inclusión de mayúsculas, minúsculas, números y caracteres especiales.
-- Opción para copiar la contraseña generada al portapapeles.
+- Sencilla interfaz gráfica.
+- Opciones de personalización para la contraseña.
+- Generación rápida y segura de contraseñas.
 
 ## Requisitos
 
-Para ejecutar este proyecto, necesitarás tener Python instalado en tu máquina, así como las siguientes bibliotecas:
-
-- Tkinter (incluido en las instalaciones estándar de Python).
+- Python 3.x
+- Tkinter (incluido con la instalación estándar de Python)
 
 ## Instalación
 
@@ -39,11 +37,11 @@ Para ejecutar este proyecto, necesitarás tener Python instalado en tu máquina,
     ```bash
     python generador_contraseñas.py
 
-2. Ajusta las características de la contraseña según tus necesidades.
+2. Ajusta los parámetros según tus preferencias (longitud de la contraseña, inclusión de mayúsculas, minúsculas, números y caracteres especiales).
 
-3. Haz clic en el botón para generar la contraseña.
+3. Haz clic en el botón "Generar Contraseña" para crear una nueva contraseña.
 
-4. Utiliza el botón de copiar para copiar la contraseña generada al portapapeles.
+4. Utiliza el botón "Copiar" para copiar la contraseña generada al portapapeles.
 
 ## Contribuciones
 Si deseas contribuir a este proyecto, siéntete libre de abrir un *issue* o enviar un *pull request*.

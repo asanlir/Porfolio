@@ -39,7 +39,7 @@ Para ejecutar este proyecto, necesitarás tener Python instalado en tu máquina,
     ```bash
     python generador_contraseñas.py
 
-2. Ajusta la longitud de la contraseña según tus necesidades.
+2. Ajusta las características de la contraseña según tus necesidades.
 
 3. Haz clic en el botón para generar la contraseña.
 

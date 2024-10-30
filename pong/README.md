@@ -29,7 +29,7 @@ Si sólo quieres disfrutar, simplemente descarga el archivo `PONG.exe` y ejecút
 ## Cómo jugar
 
 1. **Iniciar el juego**: Ejecuta el archivo `PONG.exe` para comenzar a jugar.
-2. **Elige el modo de juego entre 1 y 2 jugadores.
+2. **Elige** el modo de juego entre 1 y 2 jugadores.
 3. **Controles**:
    - Jugador 1: Usa las teclas **W** (arriba) y **S** (abajo).
    - Jugador 2: Usa las teclas de flecha **↑** (arriba) y **↓** (abajo).

@@ -20,7 +20,7 @@ Este es un sencillo generador de contraseñas creado con Tkinter. Permite genera
 2. Clona el repositorio en tu máquina local:
 
    ```bash
-   git clone https://github.com/asanlir/pass_gen.git
+   git clone https://github.com/asanlir/Porfolio/pass_gen.git
 
 3. Navega a la carpeta del proyecto:
 

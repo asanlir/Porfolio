@@ -6,13 +6,13 @@ las transacciones, destacando las características más importantes que ayudan a
 
 ## 🗂️ Tabla de contenidos
 
-- [💡 Descripción](#💡-descripción)
-- [🛠️ Tecnologías empleadas](#🛠️-tecnologías-empleadas)
-- [📝 Plan de trabajo](#📝-plan-de-trabajo)
-- [📊 Visualizaciones](#📊-visualizaciones)
-- [🌳 Representación de árboles de decisión](#🌳-representación-de-árboles-de-decisión)
-- [⚙️ Modelo de Machine Learning](#⚙️-modelo-de-machine-learning)
-- [📋 Conclusiones](📋-conclusiones)
+- [💡 Descripción](#descripción)
+- [🛠️ Tecnologías empleadas](#tecnologías-empleadas)
+- [📝 Plan de trabajo](#plan-de-trabajo)
+- [📊 Visualizaciones](#visualizaciones)
+- [🌳 Representación de árboles de decisión](#representación-de-árboles-de-decisión)
+- [⚙️ Modelo de Machine Learning](#modelo-de-machine-learning)
+- [📋 Conclusiones](#conclusiones)
 
 ## 💡 Descripción
 
